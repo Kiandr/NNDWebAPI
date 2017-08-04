@@ -1,0 +1,409 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2EB1ACE41F353CB30075D09D /* NNDWebAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EB1ACDA1F353CB20075D09D /* NNDWebAPI.framework */; };
+		2EB1ACE91F353CB30075D09D /* NNDWebAPITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EB1ACE81F353CB30075D09D /* NNDWebAPITests.m */; };
+		2EB1ACEB1F353CB30075D09D /* NNDWebAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EB1ACDD1F353CB20075D09D /* NNDWebAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2EB1ACE51F353CB30075D09D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2EB1ACD11F353CB20075D09D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2EB1ACD91F353CB20075D09D;
+			remoteInfo = NNDWebAPI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2EB1ACDA1F353CB20075D09D /* NNDWebAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NNDWebAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EB1ACDD1F353CB20075D09D /* NNDWebAPI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NNDWebAPI.h; sourceTree = "<group>"; };
+		2EB1ACDE1F353CB20075D09D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2EB1ACE31F353CB30075D09D /* NNDWebAPITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NNDWebAPITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EB1ACE81F353CB30075D09D /* NNDWebAPITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NNDWebAPITests.m; sourceTree = "<group>"; };
+		2EB1ACEA1F353CB30075D09D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2EB1ACD61F353CB20075D09D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EB1ACE01F353CB30075D09D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EB1ACE41F353CB30075D09D /* NNDWebAPI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2EB1ACD01F353CB20075D09D = {
+			isa = PBXGroup;
+			children = (
+				2EB1ACDC1F353CB20075D09D /* NNDWebAPI */,
+				2EB1ACE71F353CB30075D09D /* NNDWebAPITests */,
+				2EB1ACDB1F353CB20075D09D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2EB1ACDB1F353CB20075D09D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2EB1ACDA1F353CB20075D09D /* NNDWebAPI.framework */,
+				2EB1ACE31F353CB30075D09D /* NNDWebAPITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2EB1ACDC1F353CB20075D09D /* NNDWebAPI */ = {
+			isa = PBXGroup;
+			children = (
+				2EB1ACDD1F353CB20075D09D /* NNDWebAPI.h */,
+				2EB1ACDE1F353CB20075D09D /* Info.plist */,
+			);
+			path = NNDWebAPI;
+			sourceTree = "<group>";
+		};
+		2EB1ACE71F353CB30075D09D /* NNDWebAPITests */ = {
+			isa = PBXGroup;
+			children = (
+				2EB1ACE81F353CB30075D09D /* NNDWebAPITests.m */,
+				2EB1ACEA1F353CB30075D09D /* Info.plist */,
+			);
+			path = NNDWebAPITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2EB1ACD71F353CB20075D09D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EB1ACEB1F353CB30075D09D /* NNDWebAPI.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2EB1ACD91F353CB20075D09D /* NNDWebAPI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EB1ACEE1F353CB30075D09D /* Build configuration list for PBXNativeTarget "NNDWebAPI" */;
+			buildPhases = (
+				2EB1ACD51F353CB20075D09D /* Sources */,
+				2EB1ACD61F353CB20075D09D /* Frameworks */,
+				2EB1ACD71F353CB20075D09D /* Headers */,
+				2EB1ACD81F353CB20075D09D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NNDWebAPI;
+			productName = NNDWebAPI;
+			productReference = 2EB1ACDA1F353CB20075D09D /* NNDWebAPI.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2EB1ACE21F353CB30075D09D /* NNDWebAPITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EB1ACF11F353CB30075D09D /* Build configuration list for PBXNativeTarget "NNDWebAPITests" */;
+			buildPhases = (
+				2EB1ACDF1F353CB30075D09D /* Sources */,
+				2EB1ACE01F353CB30075D09D /* Frameworks */,
+				2EB1ACE11F353CB30075D09D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2EB1ACE61F353CB30075D09D /* PBXTargetDependency */,
+			);
+			name = NNDWebAPITests;
+			productName = NNDWebAPITests;
+			productReference = 2EB1ACE31F353CB30075D09D /* NNDWebAPITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2EB1ACD11F353CB20075D09D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Kian Davoudi-Rad";
+				TargetAttributes = {
+					2EB1ACD91F353CB20075D09D = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 7Z59E8EDBY;
+						ProvisioningStyle = Automatic;
+					};
+					2EB1ACE21F353CB30075D09D = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 7Z59E8EDBY;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 2EB1ACD41F353CB20075D09D /* Build configuration list for PBXProject "NNDWebAPI" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2EB1ACD01F353CB20075D09D;
+			productRefGroup = 2EB1ACDB1F353CB20075D09D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2EB1ACD91F353CB20075D09D /* NNDWebAPI */,
+				2EB1ACE21F353CB30075D09D /* NNDWebAPITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2EB1ACD81F353CB20075D09D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EB1ACE11F353CB30075D09D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2EB1ACD51F353CB20075D09D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EB1ACDF1F353CB30075D09D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EB1ACE91F353CB30075D09D /* NNDWebAPITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2EB1ACE61F353CB30075D09D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2EB1ACD91F353CB20075D09D /* NNDWebAPI */;
+			targetProxy = 2EB1ACE51F353CB30075D09D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2EB1ACEC1F353CB30075D09D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2EB1ACED1F353CB30075D09D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2EB1ACEF1F353CB30075D09D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 7Z59E8EDBY;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = NNDWebAPI/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kdr.NNDWebAPI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		2EB1ACF01F353CB30075D09D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 7Z59E8EDBY;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = NNDWebAPI/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kdr.NNDWebAPI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		2EB1ACF21F353CB30075D09D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 7Z59E8EDBY;
+				INFOPLIST_FILE = NNDWebAPITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kdr.NNDWebAPITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2EB1ACF31F353CB30075D09D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 7Z59E8EDBY;
+				INFOPLIST_FILE = NNDWebAPITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kdr.NNDWebAPITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2EB1ACD41F353CB20075D09D /* Build configuration list for PBXProject "NNDWebAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EB1ACEC1F353CB30075D09D /* Debug */,
+				2EB1ACED1F353CB30075D09D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2EB1ACEE1F353CB30075D09D /* Build configuration list for PBXNativeTarget "NNDWebAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EB1ACEF1F353CB30075D09D /* Debug */,
+				2EB1ACF01F353CB30075D09D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2EB1ACF11F353CB30075D09D /* Build configuration list for PBXNativeTarget "NNDWebAPITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EB1ACF21F353CB30075D09D /* Debug */,
+				2EB1ACF31F353CB30075D09D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2EB1ACD11F353CB20075D09D /* Project object */;
+}
